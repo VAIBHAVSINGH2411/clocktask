@@ -1,0 +1,45 @@
+body {
+  background-color: beige;
+}
+.buttons {
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  margin: 20px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  opacity: 0.8;
+}
+.buttons:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  transition: background-color 0.5s ease-in-out 0.05s;
+}
+.buttoncontaner {
+  display: flex !important;
+  justify-content: center !important;
+  margin-top: 20px;
+}
+
+.clock {
+  width: 20%;
+  margin: auto;
+  background-color: white;
+  color: black;
+  font-size: 36px;
+  margin-top: 10%;
+  text-align: center;
+}
+.timelist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.timelist ul {
+  background-color: aliceblue;
+  font-size: xx-large;
+}
